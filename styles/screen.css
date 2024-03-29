@@ -11,20 +11,16 @@
     --radius: 20vmin; 
 }
   
-  .dot {
+.dot {
     position: absolute;
     width: 10px;
     height: 10px;
     background-color: red;
     border-radius: 50%; 
-  
-
     --angle: 0deg;
-  
-    
-    transform: translate(
+    translate: 
       calc(cos(var(--angle)) * var(--radius)), /* Translation on X-axis */
       calc(sin(var(--angle)) * var(--radius) * -1) /* Translation on Y-axis */
-    );
-  }
+    ;
+}
   
