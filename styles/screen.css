@@ -19,8 +19,7 @@
     border-radius: 50%; 
     --angle: 0deg;
     translate: 
-      calc(cos(var(--angle)) * var(--radius)), /* Translation on X-axis */
-      calc(sin(var(--angle)) * var(--radius) * -1) /* Translation on Y-axis */
+      calc(cos(var(--angle)) * var(--radius)), 
+      calc(sin(var(--angle)) * var(--radius) * -1) 
     ;
 }
-  
