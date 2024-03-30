@@ -1,25 +1,109 @@
-.container {
-    position: relative;
-    width: 200px; 
-    height: 200px; 
-    margin: 50px auto; 
-    border: 2px solid black; 
-    border-radius: 50%; 
-  }
-
-:root {
-    --radius: 20vmin; 
-}
+body {
+  text-align: center; 
+  background:  linear-gradient(in srgb, pink, white);
   
-.dot {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    border-radius: 50%; 
-    --angle: 0deg;
-    translate: 
-      calc(cos(var(--angle)) * var(--radius)), 
-      calc(sin(var(--angle)) * var(--radius) * -1) 
-    ;
+}
+
+h1 {
+  font-size: 24px; 
+}
+
+
+p {
+  font-size: 16px; 
+}
+
+ul {
+    list-style-type: none;
+}
+li:nth-child(1) {
+  background-color: color-mix(in srgb,  #eb34c9 0%, white);
+}
+
+li:nth-child(2) {
+  background-color: color-mix(in srgb,  #eb34c9 25%, white);
+}
+
+li:nth-child(3) {
+  background-color: color-mix(in srgb,  #eb34c9 50%, white);
+}
+
+li:nth-child(4) {
+  background-color: color-mix(in srgb,  #eb34c9 75%, white);
+}
+
+li:nth-child(5) {
+  background-color: color-mix(in srgb,  #eb34c9 100%, white);
+}
+
+.color-list 
+{
+   padding: 0;
+  margin: 0;
+}
+.color-list li{
+   display: inline-block;
+  margin-right: 20px;
+    padding: 20px;
+}
+
+.color-one {
+  background-color: hsl(10 100% 50%);
+}
+.color-two {
+  background-color: hsl(60 100% 50%);
+}
+.shorter {
+  background-color: color-mix(
+    in hsl shorter hue,
+    hsl(10 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+.longer {
+  background-color: color-mix(
+    in hsl longer hue,
+    hsl(10 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+ .srgb {
+    background: color-mix(in srgb, #F2B6C6, #48CAD9);
+  }
+  .linear-srgb {
+    background: color-mix(in srgb-linear,  #F2B6C6, #48CAD9);
+  }
+  .hsl {
+    background: color-mix(in hsl, #F2B6C6, #48CAD9);
+  }
+  .hwb {
+    background: color-mix(in hwb, #F2B6C6, #48CAD9);
+  }
+  .lch {
+    background: color-mix(in lch, #F2B6C6, #48CAD9);
+  }
+  .oklch {
+    background: color-mix(in oklch, #F2B6C6, #48CAD9);
+  }
+  .lab {
+    background: color-mix(in lab, #F2B6C6, #48CAD9);
+  }
+  .oklab {
+    background: color-mix(in oklab, #F2B6C6, #48CAD9);
+  }
+  .xyz {
+    background: color-mix(in xyz,#F2B6C6, #48CAD9);
+  }
+}
+
+.color-container
+{
+  max-width: 200px; 
+  margin: 0 auto;
+}
+
+.mix-container
+{
+  max-width: 200px; 
+  margin: 0 auto;
 }
