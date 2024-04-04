@@ -1,1 +1,1 @@
-learned from https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix and https://developer.chrome.com/blog/whats-new-css-ui-2023#container_queries 
+Learned from https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix and https://developer.chrome.com/blog/whats-new-css-ui-2023#container_queries 

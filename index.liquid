@@ -3,34 +3,28 @@ layout: layout.liquid
 title: 11ty Boilerplate
 ---
 
-/* learned from https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix and https://developer.chrome.com/blog/whats-new-css-ui-2023#container_queries */
-<h1>Using CSS color mix <h1> 
-  <div id= container1>
-  <p>Showing percentages of the color #eb34c9 mixed in <p> 
-   <ul class = "color-list">
-  <li>0%</li>
-  <li>25%</li>
-  <li>50%</li>
-  <li>75%</li>
-  <li>100%</li>
-</ul>
+
+  <h1>Using CSS color mix</h1> 
+  <div id="container1">
+    <p>Showing percentages of the color #eb34c9 mixed in</p> 
+    <ul class="color-list">
+      <li>0%</li>
+      <li>25%</li>
+      <li>50%</li>
+      <li>75%</li>
+      <li>100%</li>
+    </ul>
   </div>
-  <p> Using hue interpolation in color-mix </p> 
-  <div class = "color-container">
-  <div class="color-one">color one</div>
-  <div class="color-two">color two</div>
-  <div class="shorter">mixed shorter</div>
-  <div class="longer">mixed longer</div>
+
+  <p>Testing different color spaces mixing #F2B6C6 and #48CAD9</p>
+  <div class="mix-container">
+    <div class="mix srgb">sRGB</div>
+    <div class="mix linear-srgb">linear-sRGB</div>
+    <div class="mix hsl">HSL</div>
+    <div class="mix hwb">HWB</div>
+    <div class="mix lch">LCH</div>
+    <div class="mix oklch">OKLCH</div>
+    <div class="mix lab">LAB</div>
+    <div class="mix oklab">OKLAB</div>
+    <div class="mix xyz">XYZ</div>
   </div>
-  <p>Testing different color spaces mixing #F2B6C6 and #48CAD9  </p>
-<div class="mix-container">
-  <div class="mix srgb">sRGB</div>
-<div class="mix linear-srgb">linear-srgb</div>
-<div class="mix hsl">HSL</div>
-<div class="mix hwb">HWB</div>
-<div class="mix lch">LCH</div>
-<div class="mix oklch">OKLCH</div>
-<div class="mix lab">LAB</div>
-<div class="mix oklab">OKLAB</div>
-<div class="mix xyz">XYZ</div>
-</div>
