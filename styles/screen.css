@@ -1,6 +1,6 @@
 body {
   text-align: center; 
-  background: color-mix(in srgb, #F2B6C6, #48CAD9);
+  background:  linear-gradient(in srgb, pink, white);
   font-family: Arial, sans-serif;
 }
 
