@@ -1,6 +1,6 @@
 body {
   text-align: center; 
-  background: linear-gradient(to bottom, pink, white);
+  background: color-mix(in srgb, #F2B6C6, #48CAD9);
   font-family: Arial, sans-serif;
 }
 
@@ -42,30 +42,51 @@ ul {
   margin: 5px;
 }
 
+li:nth-child(1) {
+  background-color: color-mix(in srgb,  #eb34c9 0%, white);
+}
+
+li:nth-child(2) {
+  background-color: color-mix(in srgb,  #eb34c9 25%, white);
+}
+
+li:nth-child(3) {
+  background-color: color-mix(in srgb,  #eb34c9 50%, white);
+}
+
+li:nth-child(4) {
+  background-color: color-mix(in srgb,  #eb34c9 75%, white);
+}
+
+li:nth-child(5) {
+  background-color: color-mix(in srgb,  #eb34c9 100%, white);
+}
+
 .srgb {
-  background: linear-gradient(to right, #F2B6C6, #48CAD9);
+  background: color-mix(in srgb, #F2B6C6, #48CAD9);
 }
 .linear-srgb {
-  background: linear-gradient(to right, #F2B6C6, #48CAD9);
+  background: color-mix(in srgb-linear,  #F2B6C6, #48CAD9);
 }
 .hsl {
-  background: linear-gradient(to right, #F2B6C6, #48CAD9);
+  background: color-mix(in hsl, #F2B6C6, #48CAD9);
 }
 .hwb {
-  background: linear-gradient(to right, #F2B6C6, #48CAD9);
+  background: color-mix(in hwb, #F2B6C6, #48CAD9);
 }
 .lch {
-  background: linear-gradient(to right, #F2B6C6, #48CAD9);
+  background: color-mix(in lch, #F2B6C6, #48CAD9);
 }
 .oklch {
-  background: linear-gradient(to right, #F2B6C6, #48CAD9);
+  background: color-mix(in oklch, #F2B6C6, #48CAD9);
 }
 .lab {
-  background: linear-gradient(to right, #F2B6C6, #48CAD9);
+  background: color-mix(in lab, #F2B6C6, #48CAD9);
 }
 .oklab {
-  background: linear-gradient(to right, #F2B6C6, #48CAD9);
+  background: color-mix(in oklab, #F2B6C6, #48CAD9);
 }
 .xyz {
-  background: linear-gradient(to right, #F2B6C6, #48CAD9);
+  background: color-mix(in xyz,#F2B6C6, #48CAD9);
 }
+
